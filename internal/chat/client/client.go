@@ -9,7 +9,7 @@ import (
 )
 
 func StartClient() {
-	conn, err := connect("localhost:8080")
+	_, err := connect("localhost:8080")
 	if err != nil {
 		fmt.Println("connection")
 	}
